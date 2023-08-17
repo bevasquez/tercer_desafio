@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Raleway;
+    justify-content: center;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    margin: 100px;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+.info {
+    text-align: left;
+    margin: 40px;
+    font-size: 1.4em;
+}
+
+main img {
+    width: 600px;
+    height: 400px;
+}
+
+
+.caracteristicas {
+    margin: 30px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1A13;
+    font-size: 2em;
+    padding: 40px;
+}
+
+h2 {
+    background-color: #1E1A13;
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+    padding: 40px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.gallery img {
+    width: 90%;
+}
+
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 30px;
+}
+
+a {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
